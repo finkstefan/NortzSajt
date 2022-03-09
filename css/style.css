@@ -13,6 +13,7 @@ body {
     width: 100%;
     perspective: 500px;
     position: fixed;
+   
 }
 
 .bg_1 {
@@ -24,6 +25,7 @@ body {
     position: absolute;
     left: 0;
     perspective: 500px;
+    
 }
 
 .bg_2 {
@@ -37,6 +39,7 @@ body {
     top: 290px;
     left: 0;
     z-index: 5;
+    
 }
 
 
@@ -51,6 +54,7 @@ body {
     z-index: 4;
     top: 400px;
     left: 460px;
+    
 }
 
 .bg_4 {
@@ -64,6 +68,7 @@ body {
     z-index: 1;
     top: -150px;
     left: 0px;
+    
 }
 
 .bg_5 {
@@ -77,6 +82,7 @@ body {
     z-index: 3;
     top: 465px;
     left: 900px;
+    
 }
 
 
@@ -92,6 +98,7 @@ body {
     opacity: 0.4;
     top: 0;
     right: 0px;
+   
 }
 
 .bg_7 {
@@ -106,6 +113,7 @@ body {
     top: -100px;
     right: 0px;
     opacity: 0.5;
+   
 }
 
 .bg_8 {
@@ -120,52 +128,59 @@ body {
     top: -100px;
     right: 0px;
     opacity: 0.5;
+    
 }
 
 .bg_9 {
     position: absolute;
     width: 100%;
-    height: 100vh;
+    height: 10vh;
   background:none;
     background-repeat: no-repeat;
     perspective: 500px;
     transform: translateZ(0px);
-    z-index: 0;
+    z-index: 100;
     top: -300px;
     right: 500px;
     opacity:1;
+    
+
     
    
 }
 .bg_10 {
     position: absolute;
     width: 100%;
-    height: 100vh;
+    height: 10vh;
     background:none;
     background-repeat: no-repeat;
     perspective: 500px;
-    transform: translateZ(150px);
-    z-index: 0;
+    transform: translateZ(0px);
+    z-index: 100;
     top: -400px;
     right: 100px;
     opacity:1;
+
     
     
 }
 .bg_11 {
     position: absolute;
     width: 100%;
-    height: 100vh;
+    height: 10vh;
     background:none;
     background-repeat: no-repeat;
     perspective: 500px;
-    transform: translateZ(150px);
-    z-index: 0;
+    transform: translateZ(0px);
+    z-index: 100;
     top: -500px;
     right: -300px;
     opacity:1;
     
+    
 }
+
+
 
 h1 {
     position: absolute;
@@ -183,7 +198,7 @@ button{
     position: absolute;
     background:none;
     font-size: 90px;
-    z-index: 1;
+    z-index: 10;
     color: #fff;
     font-family: sans-serif;
     font-weight: bolder;
