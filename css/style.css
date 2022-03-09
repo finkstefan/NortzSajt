@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 500vh;
+
+}
+
+.container {
+    width: 100%;
+    perspective: 500px;
+    position: fixed;
+}
+
+.bg_1 {
+    width: 100%;
+    height: 120vh;
+    background-image: url('../images/eddy-billard-wUcz4I1LiPA-unsplash.png');
+    transform: translateZ(0px);
+    top: 0;
+    position: absolute;
+    left: 0;
+    perspective: 500px;
+}
+
+.bg_2 {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/6.png');
+    background-repeat: no-repeat;
+    perspective: 500px;
+    transform: translateZ(0px);
+    top: 290px;
+    left: 0;
+    z-index: 5;
+}
+
+
+.bg_3 {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/5.png');
+    background-repeat: no-repeat;
+    perspective: 500px;
+    transform: translateZ(0px);
+    z-index: 4;
+    top: 400px;
+    left: 460px;
+}
+
+.bg_4 {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/7.png');
+    background-repeat: no-repeat;
+    perspective: 500px;
+    transform: translateZ(0px);
+    z-index: 1;
+    top: -150px;
+    left: 0px;
+}
+
+.bg_5 {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/3.png');
+    background-repeat: no-repeat;
+    perspective: 500px;
+    transform: translateZ(0px);
+    z-index: 3;
+    top: 465px;
+    left: 900px;
+}
+
+
+.bg_6 {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/22.png');
+    background-repeat: repeat-x;
+    perspective: 500px;
+    transform: translateZ(0px);
+    z-index: 4;
+    opacity: 0.4;
+    top: 0;
+    right: 0px;
+}
+
+.bg_7 {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/33.png');
+    background-repeat: no-repeat;
+    perspective: 500px;
+    transform: translateZ(150px);
+    z-index: 2;
+    top: -100px;
+    right: 0px;
+    opacity: 0.5;
+}
+
+.bg_8 {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/22.png');
+    background-repeat: no-repeat;
+    perspective: 500px;
+    transform: translateZ(150px);
+    z-index: 3;
+    top: -100px;
+    right: 0px;
+    opacity: 0.5;
+}
+
+.bg_9 {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+  background:none;
+    background-repeat: no-repeat;
+    perspective: 500px;
+    transform: translateZ(0px);
+    z-index: 0;
+    top: -300px;
+    right: 500px;
+    opacity:1;
+    
+   
+}
+.bg_10 {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background:none;
+    background-repeat: no-repeat;
+    perspective: 500px;
+    transform: translateZ(150px);
+    z-index: 0;
+    top: -400px;
+    right: 100px;
+    opacity:1;
+    
+    
+}
+.bg_11 {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background:none;
+    background-repeat: no-repeat;
+    perspective: 500px;
+    transform: translateZ(150px);
+    z-index: 0;
+    top: -500px;
+    right: -300px;
+    opacity:1;
+    
+}
+
+h1 {
+    position: absolute;
+    font-size: 90px;
+    z-index: 1;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bolder;
+    left: 50%;
+    top: 650px;
+    transform: translateX(-50%) ;
+}
+
+button{
+    position: absolute;
+    background:none;
+    font-size: 90px;
+    z-index: 1;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bolder;
+    left: 50%;
+    top: 650px;
+    transform: translateX(-50%) ;
+    border-radius: 25px;
+    padding:5px;
+}
