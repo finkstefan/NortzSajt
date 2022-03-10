@@ -256,10 +256,39 @@ button{
     transform: translateX(-50%) ;
     border:none;
     border-radius:0px;
+    float:left;
 }
 
 #kontaktbtn{
     display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.inner1{
+    float:left;
+}
+
+.inner2{
+float:left;
+clear:left;
+}
+
+.projectbutton{
+    position: absolute;
+    background:none;
+    background-size:100%;
+    font-size: 20px;
+    z-index: 10;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bolder;
+    left: 50%;
+    top: 850px;
+   
+    transform: translateX(-50%) ;
+    border-radius:0px;
+    float:left;
+    border-radius: 25px;
+    padding:5px;
 }
