@@ -7,9 +7,9 @@ $(window).scroll(function(e) {
     $('.bg_6').css({transform: 'translateZ(' + window.scrollY / 1 + 'px) translateX(' + window.scrollY / 2 + 'px)'})
     $('.bg_7').css({transform: 'translateZ(' + window.scrollY / 4 + 'px) translateX(' + -window.scrollY + 'px)'})
     $('.bg_8').css({transform: 'translateZ(' + window.scrollY / 1 + 'px) translateX(' + window.scrollY / 2 + 'px)'})
-    $('.bg_9').css({transform: 'translateZ(' + window.scrollY / 1 + 'px) translateX(' + window.scrollY / 2 + 'px)', filter: 'blur(' + window.scrollY / 400 + 'px)'}) //bilo z 1
-    $('.bg_10').css({transform: 'translateZ(' + window.scrollY / 4 + 'px) translateX(' + window.scrollY / 800+ 'px)', filter: 'blur(' + window.scrollY / 800 + 'px)'}) //bilo z 4
-    $('.bg_11').css({transform: 'translateZ(' + window.scrollY / 3 + 'px) translateY(' + window.scrollY / 8 + 'px)', filter: 'blur(' + window.scrollY / 400 + 'px)'})
+    $('.bg_9').css({transform: 'translateZ(' + window.scrollY / 1 + 'px) translateX(' + window.scrollY / 2 + 'px)'}) 
+    $('.bg_10').css({transform: 'translateZ(' + window.scrollY / 4 + 'px) translateX(' + window.scrollY / 800+ 'px)'}) 
+    $('.bg_11').css({transform: 'translateZ(' + window.scrollY / 3 + 'px) translateY(' + window.scrollY / 8 + 'px)'})
 
     if (scrollY > 400) {
         $('h1').css({transform: 'translateY(' + -window.scrollY / 6 + 'px) translateX(-50%)'})
@@ -17,3 +17,8 @@ $(window).scroll(function(e) {
     }
 
 })
+
+var button = document.getElementById('projektiButton');
+button.onclick = function() {
+  location.assign('/projekti.html');
+}
