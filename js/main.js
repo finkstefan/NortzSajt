@@ -12,8 +12,10 @@ $(window).scroll(function(e) {
     $('.bg_11').css({transform: 'translateZ(' + window.scrollY / 3 + 'px) translateY(' + window.scrollY / 8 + 'px)'})
 
     if (scrollY > 400) {
+       
         $('h1').css({transform: 'translateY(' + -window.scrollY / 6 + 'px) translateX(-50%)'})
-     //   $('button').css({transform: 'translateY(' + -window.scrollY / 16 + 'px) translateX(-50%)'})
+        $("#kontaktbtn").css({transform: 'translateY(' + -window.scrollY / 6 + 'px) translateY(600%) '})
+      
     }
 
 })

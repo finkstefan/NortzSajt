@@ -229,7 +229,7 @@ button{
     position: absolute;
     background:none;
     font-size: 90px;
-    z-index: 10;
+    z-index: 1;
     color: #fff;
     font-family: sans-serif;
     font-weight: bolder;
@@ -256,4 +256,10 @@ button{
     transform: translateX(-50%) ;
     border:none;
     border-radius:0px;
+}
+
+#kontaktbtn{
+    display: flex;
+  align-items: center;
+  justify-content: center;
 }
