@@ -14,6 +14,7 @@ $(window).scroll(function(e) {
     if (scrollY > 400) {
        
         $('h1').css({transform: 'translateY(' + -window.scrollY / 6 + 'px) translateX(-50%)'})
+        $('.logodiv').css({transform: 'translateY(' + -window.scrollY / 6 + 'px) translateX(-50%)'})
         $("#kontaktbtn").css({transform: 'translateY(' + -window.scrollY / 6 + 'px) translateY(600%) '})
       
     }
