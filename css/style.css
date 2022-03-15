@@ -16,6 +16,15 @@ body {
    
 }
 
+.contactbgd{
+    background-image: url('../ntpcrop1.jpg');
+    width:1500px;
+    height:1000px;
+}
+
+.logo-zoom{ height:200vh;}
+.logo-zoom img{ margin:30vh auto 0px; display:flex; position: fixed; left:0px; right:0px; z-index:1; transition:0.3s;}
+
 .bg_1 {
     width: 100%;
     height: 120vh;
