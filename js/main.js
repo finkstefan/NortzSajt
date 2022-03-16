@@ -25,3 +25,6 @@ var button = document.getElementById('projektiButton');
 button.onclick = function() {
   location.assign('/projekti.html');
 }
+
+
+

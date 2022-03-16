@@ -7,9 +7,12 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Nortz</title>
 </head>
+<style>
+  
+</style>
 <body>
 
-    <div class="container">
+    <div id="cont" class="container">
         
         <div class="bg_1"></div>
         <div class="bg_2"></div>
@@ -48,7 +51,15 @@
        
         
     </div>
-    
+    <script>
+
+        function scrollFun(){
+            document.documentElement.scrollTop = document.body.scrollTop = 2900;
+        }
+       
+
+        window.onload = scrollFun;
+    </script>
     
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
