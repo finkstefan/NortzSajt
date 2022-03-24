@@ -14,14 +14,15 @@ $(window).scroll(function(e) {
     $('.bg_11').css({transform: 'translateZ(' + window.scrollY / 3 + 'px) translateY(' + window.scrollY / 8 + 'px)'}) 
     $('.bg_13').css({transform: 'translateZ(' + window.scrollY + 'px) translateX(' + window.scrollY / 2 + 'px)'}) 
     $('.bg_14').css({transform: 'translateZ(' + window.scrollY / 4 + 'px) translateX(' + window.scrollY / 800+ 'px)'})
-    $('.bg_15').css({transform: 'translateZ(' + window.scrollY / 3 + 'px) translateY(' + window.scrollY / 8 + 'px)'})  
+    $('.bg_15').css({transform: 'translateZ(' + window.scrollY / 3 + 'px) translateY(' + window.scrollY / 8 + 'px)'}) 
+    $('.bg_20').css({transform: 'translateZ(' + window.scrollY / 3 + 'px) translateY(' + window.scrollY / 8 + 'px)'})  
    // $(".container").css("bottom", $(window).scrollTop() * -1);
   
 
     if (scrollY > 400) {
        
         $('h1').css({transform: 'translateY(' + -window.scrollY / 6 + 'px) translateX(-50%)'})
-        $('.logodiv').css({transform: 'translateY(' + -window.scrollY / 6 + 'px) translateX(-50%)'})
+        $('.logodiv').css({transform: 'translateY(' + -window.scrollY / 5 + 'px) translateX(-50%)'})
         $("#kontaktbtn").css({transform: 'translateY(' + -window.scrollY / 6 + 'px) translateY(600%) '})
       
     }
