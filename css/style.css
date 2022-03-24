@@ -151,7 +151,7 @@ body {
     transform: translateZ(0px);
     z-index: 100;
     top: -300px;
-    right: 500px;
+    right: 600px;
     
     opacity:1;
 
@@ -170,7 +170,7 @@ body {
     transform: translateZ(0px);
     z-index: 100;
     top: -400px;
-    right: 100px;
+    right: 200px;
     opacity:1;
     
 
@@ -187,7 +187,7 @@ body {
     transform: translateZ(0px);
     z-index: 100;
     top: -500px;
-    right: -300px;
+    right: -200px;
     opacity:1;
     
     
@@ -203,7 +203,7 @@ body {
     transform: translateZ(0px);
     z-index: 100;
     top: -600px;
-    right: -650px;
+    right: -600px;
     opacity:1;
     
     
